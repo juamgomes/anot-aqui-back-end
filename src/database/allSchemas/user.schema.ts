@@ -3,7 +3,7 @@ import { Document } from "mongodb";
 
 export type UserDocument = User & Document;
 
-@Schema()
+@Schema({ collection: 'users' })
 
 export class Address {
     @Prop({ required: true })
