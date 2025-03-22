@@ -31,8 +31,6 @@ export class Address {
     isDefault: boolean;
 }
 
-const AddressSchema = SchemaFactory.createForClass(Address);
-
 export enum UserRole {
   CUSTOMER = 'customer',
   ADMIN = 'admin',
